@@ -17,6 +17,7 @@ theDF$x[3]
 # Editing names
 names(theDF)<-c("Popularity", "Team Strength", "Sport")
 
+#Function that isolates Team Strength 
 X=theDF$ "Team Strength"
 
 sd(X)
