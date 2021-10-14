@@ -19,3 +19,4 @@ for (i in 1:length(PresidentDF$party_simplified)){
 cat("Trump:", Trump)
 cat("Biden:", Biden)
 
+#-5 did not push data, -5 here(), -5 use candidate variable 35/50
