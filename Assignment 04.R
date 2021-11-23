@@ -36,4 +36,4 @@ count(df, df$Title)
 results <- count(df, df$Title)
 View(results)
 View(dataset1_1_)
-
+#95/100 -5 did not push data
