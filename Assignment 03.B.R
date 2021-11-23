@@ -8,11 +8,11 @@ Biden <- 0
 Trump <- 0
 
 for (i in 1:length(PresidentDF$party_simplified)){
-  votes <- PresidentDF$party_simplified[i]
-  if (!is.na(votes)){
-    if(PresidentDF$party_simplified[i] == "DEMOCRAT") {
+  temp <- PresidentDF$candidate[i]
+  if (!is.na(temp)){
+    if(PresidentDF$candidate[i] == "JOSEPH R BIDEN") {
       Biden = Biden + PresidentDF$votes[i]}
-    if(PresidentDF$party_simplified[i] == "REPUBLICAN"){
+    if(PresidentDF$candidate[i] == "DONALD J TRUMP"){
       Trump = Trump + PresidentDF$votes[i]}}}
 
 
